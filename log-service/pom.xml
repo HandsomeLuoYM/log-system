@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>com-parent</artifactId>
+        <groupId>com.parent</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>log-service</artifactId>
+
+    <dependencies>
+        <!-- 算法模块 -->
+        <!-- 词频算法相关jar包 -->
+<!--        <dependency>-->
+<!--            <groupId>com.janeluo</groupId>-->
+<!--            <artifactId>ikanalyzer</artifactId>-->
+<!--            <version>2012_u6</version>-->
+<!--        </dependency>-->
+
+        <!-- pca 主成分分析算法相关jar包 -->
+        <dependency>
+            <groupId>org.ejml</groupId>
+            <artifactId>core</artifactId>
+            <version>0.30</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ejml</groupId>
+            <artifactId>equation</artifactId>
+            <version>0.30</version>
+        </dependency>
+        <dependency>
+            <groupId>com.parent</groupId>
+            <artifactId>log-persistent</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
