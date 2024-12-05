@@ -1,0 +1,11 @@
+2022/03/09-00:31 [main] INFO  com.system.SpringBootSystemConfigureApplication- Starting SpringBootSystemConfigureApplication on DESKTOP-881DUFP with PID 11528 (D:\idea_maven\spring-boot-system-configure\target\classes started by DELL in D:\idea_maven\spring-boot-system-configure)
+2022/03/09-00:31 [main] INFO  com.system.SpringBootSystemConfigureApplication- No active profile set, falling back to default profiles: default
+2022/03/09-00:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022/03/09-00:32 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022/03/09-00:32 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022/03/09-00:32 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022/03/09-00:32 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 79051 ms
+2022/03/09-00:32 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022/03/09-00:32 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022/03/09-00:32 [main] INFO  com.system.SpringBootSystemConfigureApplication- Started SpringBootSystemConfigureApplication in 79.779 seconds (JVM running for 80.226)
+2022/03/09-01:00 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
